@@ -47,13 +47,15 @@ body {
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
     display: flex;
-    
+    width: 100%;
     align-items: center;
     justify-content: center;
   }
   .jumbotron p,h1{
     color: rgb(161, 237, 144);
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
   }
 
   .content {
@@ -62,6 +64,19 @@ body {
     max-width: 700px;
     color: white;
     text-align: center;
+  }
+
+  .profile {
+    width: 30%;
+    display: inline-flex;
+    float: right;
+    
+    height: 50%;
+  }
+  .profile img{
+    margin-left: 70px;
+    margin-top: -30px;
+    border-radius: 150px;
   }
 
   .scroll {
