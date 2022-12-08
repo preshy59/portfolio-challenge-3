@@ -1,0 +1,42 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+/* Navigation styling */
+.mainNav {
+    position: fixed;
+    width: 100%;
+    margin: 0px 20px;
+    background-color: transparent !important;
+    background-size: cover;
+    z-index: 10;
+  }
+  .mainNav a{
+    color: rgb(196, 34, 34) !important;
+    
+  }
+  .mainNav .navHead{
+    color: #fdcc52 !important;
+    font-size: 30px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: 'Quatera' sans-serif;
+  
+  }
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .nav-item {
+    margin: 0px 15px;
+  }
+
+
+  
