@@ -18,7 +18,9 @@ body {
     z-index: 10;
   }
   .mainNav a{
-    color: rgb(196, 34, 34) !important;
+    color: rgb(161, 237, 144) !important;
+    font-weight: 700;
+    
     
   }
   .mainNav .navHead{
@@ -38,5 +40,41 @@ body {
     margin: 0px 15px;
   }
 
+  /* Home Page Section  */
+.jumbotron {
+    background-image: url(/images/image\ 1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+  }
+  .jumbotron p,h1{
+    color: rgb(161, 237, 144);
+    font-weight: 500;
+  }
 
+  .content {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+
+  .scroll {
+    background-color: white;
+    color: rgb(161, 237, 144);
+    font-weight: 700;
+    
+  }
+
+  .scroll:hover, .scroll:focus{
+    background-color: rgb(161, 237, 144);
+    color:white;
+    font-weight: 700;
+
+  }
   
