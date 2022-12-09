@@ -42,7 +42,7 @@ body {
 
   /* Home Page Section  */
 .jumbotron {
-    background-image: url(/images/image\ 1.jpeg);
+    background-image: url(/images/image-1.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
@@ -101,7 +101,7 @@ body {
   }
   .stages {
     display: flex;
-    height: 40%;
+    height: 20%;
     margin: 20px 10px ;
     padding: 10px;
     border-radius: 70px;
