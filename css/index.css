@@ -12,8 +12,8 @@ body {
 .mainNav {
     position: fixed;
     width: 100%;
-    margin: 0px 20px;
-    background-color: transparent !important;
+    margin: 0px ;
+    background-color: gray transparent !important;
     background-size: cover;
     z-index: 10;
   }
@@ -23,9 +23,16 @@ body {
     
     
   }
+
+  .mainNav a:hover, .mainNav a:focus{
+    color: rgb(218, 205, 33) !important;
+    font-weight: 700;
+    
+  }
+
   .mainNav .navHead{
-    color: white !important;
-    font-size: 30px;
+    color: rgb(228, 200, 22) !important;
+    font-size: 20px;
     font-weight: 700;
     font-style: italic;
     font-family: 'Quatera' sans-serif;
@@ -48,6 +55,7 @@ body {
     height: calc(100vh - 25px);
     display: flex;
     width: 100%;
+    margin-bottom: 0;
     align-items: center;
     justify-content: center;
   }
@@ -92,16 +100,49 @@ body {
 
   }
 
-  /* Work section */
-  .display-work {
+
+/* work section */
+  .project-content {
+    padding: 20px 10px;
+    background-color: goldenrod;
 
   }
+  .card{
+    margin: 0 ;
+  }
+   .heading{
+    text-align: center;
+    color: rgb(161, 237, 144);
+    font-weight: 800;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+   }
+   .porject{
+    margin: 0;
+    padding: 0;
+    background-color: red !important;
+   }
+  
+  .cardContent{
+    display: inline-flex;
+    margin-top: 20px;
+    text-align: center;
+    padding: 0 10px;
+    max-width: 23%;
+    
+   }
+
+   .cardContent h3{
+    font-size: 10px;
+   }
   
   /* skill page section */
   .skillSet{
     width: 100%;
     margin: 0;
     background-color: rgb(105, 120, 102) !important;
+    padding: 30px;
    
   }
   .stages {
