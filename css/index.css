@@ -49,7 +49,7 @@ body {
 
   /* Home Page Section  */
 .jumbotron {
-    background-image: url("images/image-1.jpeg");
+    background-image: url("/images/image-1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
@@ -89,6 +89,7 @@ body {
   .scroll {
     background-color: white;
     color: rgb(161, 237, 144);
+    border-style: none;
     font-weight: 700;
     
   }
@@ -97,8 +98,8 @@ body {
     background-color: rgb(161, 237, 144);
     color:white;
     font-weight: 700;
-
   }
+ 
 
 
 /* work section */
@@ -118,10 +119,10 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     
    }
-   .porject{
-    margin: 0;
-    padding: 0;
-    background-color: red !important;
+   .project{
+    margin: 10px auto;
+    padding: 10px;
+    
    }
   
   .cardContent{
@@ -129,14 +130,34 @@ body {
     margin-top: 20px;
     text-align: center;
     padding: 0 10px;
-    max-width: 23%;
+    max-width: 24%;
     
    }
 
    .cardContent h3{
-    font-size: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: goldenrod;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
    }
-  
+
+   .click {
+    background-color: goldenrod;
+    text-decoration: none;
+    border-style: none;
+    color: rgb(161, 237, 144);
+    font-weight: 700;
+    
+  }
+
+  .click:hover, .click:focus{
+    background-color: rgb(161, 237, 144);
+    color:goldenrod;
+    font-weight: 700;
+
+  }
+
+   
   /* skill page section */
   .skillSet{
     width: 100%;
@@ -148,8 +169,7 @@ body {
   .stages {
     display: flex;
     height: 20%;
-    margin: 20px 10px ;
-    padding: 10px;
+    margin: 10px 10px ;
     border-radius: 70px;
     background-color: transparent;
     
