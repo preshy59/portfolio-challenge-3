@@ -98,6 +98,7 @@ body {
     background-color: rgb(161, 237, 144);
     color:white;
     font-weight: 700;
+    box-shadow: 10px 10px white;
   }
  
 
@@ -154,6 +155,7 @@ body {
     background-color: rgb(161, 237, 144);
     color:goldenrod;
     font-weight: 700;
+    box-shadow: 10px 10px goldenrod;
 
   }
 
