@@ -48,7 +48,7 @@ body {
   }
 
   /* Home Page Section  */
-.jumbotron {
+.home {
     background-image: url("/images/image-1.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,7 +59,7 @@ body {
     align-items: center;
     justify-content: center;
   }
-  .jumbotron p,h1{
+  .home p,h1{
     color: rgb(161, 237, 144);
     font-weight: 700;
     font-size: 20px;
@@ -192,4 +192,30 @@ body {
     border-radius: 50px;
   }
 
-  
+  /* about me styling section */
+  .about-me{
+    background-color: white ;
+    display: flex;
+    width: 100%;
+    margin-bottom: 0;
+    padding-top: 20px;
+    align-items: center;
+    justify-content:center;
+  }
+
+   
+  .about-me h5{
+    text-align: center;
+    color:goldenrod;
+    font-weight: 800;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  .about-me p{
+    color:rgb(161, 237, 144) ;
+    margin: 0;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+  }
